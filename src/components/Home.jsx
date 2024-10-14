@@ -38,8 +38,8 @@ const Home = () => {
                 </section>
 
                 {/* About */}
-                <section className="section-2 py-5">
-                    <div className="container py-5">
+                <section className="section-2 py-4">
+                    <div className="container py-4">
                         <div className="row">
                             <div className="col-12 col-md-6 gap">
                                 <img src={AboutImg} alt="image" className='img-fluid w-100' />
@@ -61,8 +61,8 @@ const Home = () => {
                 </section>
 
                 {/* Services */}
-                <section className="section-3 bg-light py-5">
-                    <div className="container-fluid py-5">
+                <section className="section-3 bg-light py-4">
+                    <div className="container-fluid py-4">
                         <div className="section-header text-center">
                             <span>our services</span>
                             <h2>Our Construction Services</h2>
@@ -148,8 +148,8 @@ const Home = () => {
                 </section>
 
                 {/* Reason */}
-                <section className="section-4 py-5">
-                    <div className="container py-5">
+                <section className="section-4 py-4">
+                    <div className="container py-4">
                         <div className="section-header text-center">
                             <span>why choose us</span>
                             <h2>Discover Our Wide Variety Of Projects</h2>
@@ -208,8 +208,8 @@ const Home = () => {
                 </section>
 
                 {/* Projects */}
-                <section className="section-3 bg-light py-5">
-                    <div className="container-fluid py-5">
+                <section className="section-3 bg-light py-4">
+                    <div className="container-fluid py-4">
                         <div className="section-header text-center">
                             <span>our projects</span>
                             <h2>Discover Our Diverse Range Of Projects</h2>
@@ -295,8 +295,8 @@ const Home = () => {
                 </section>
 
                 {/* Testimonials */}
-                <section className="section-5 py-5">
-                    <div className="container py-5">
+                <section className="section-5 py-4">
+                    <div className="container py-4">
                         <div className="section-header text-center">
                             <span>testimonials</span>
                             <h2>What People Are Saying About Us</h2>
@@ -422,8 +422,8 @@ const Home = () => {
                 </section>
 
                 {/* Blogs */}
-                <section className="section-6 bg-light py-5">
-                    <div className="container py-5">
+                <section className="section-6 py-4 bg-light">
+                    <div className="container py-4">
                         <div className="section-header text-center">
                             <span>our blogs</span>
                             <h2>Blogs & Blog Posts</h2>

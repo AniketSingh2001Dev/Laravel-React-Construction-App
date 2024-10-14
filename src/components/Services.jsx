@@ -22,8 +22,8 @@ const Services = () => {
                 </section>
 
                 {/* Services */}
-                <section className="section-3 bg-light py-5">
-                    <div className="container py-5">
+                <section className="section-3 py-4 bg-light">
+                    <div className="container py-4">
                         <div className="section-header text-center">
                             <span>our services</span>
                             <h2>Our Construction Services</h2>

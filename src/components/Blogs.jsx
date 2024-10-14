@@ -22,8 +22,8 @@ const Blogs = () => {
                 </section>
 
                 {/* Blogs */}
-                <section className="section-6 bg-light py-5">
-                    <div className="container py-5">
+                <section className="section-6 py-4 bg-light">
+                    <div className="container py-4">
                         <div className="section-header text-center">
                             <span>our blogs</span>
                             <h2>Blogs & Blog Posts</h2>

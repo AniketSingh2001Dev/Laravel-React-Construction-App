@@ -4,6 +4,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Blogs from "./components/Blogs";
+import Contact from "./components/Contact";
 import './assets/scss/styles.scss';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path='/services' element={<Services />} />
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/blogs' element={<Blogs />} />
+                    <Route path='/contact' element={<Contact />} />
                 </Routes>
             </div>
         </>

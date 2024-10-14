@@ -11,7 +11,7 @@ const About = () => {
                         <div className="container">
                             <div className="text-left">
                                 <span>Quality. Integrity. Value.</span>
-                                <h1>About us</h1>
+                                <h1>About Us</h1>
                                 <p>
                                     We excel at transforming visions into reality through
                                     <br />
@@ -23,8 +23,8 @@ const About = () => {
                 </section>
 
                 {/* About */}
-                <section className="section-2 py-5">
-                    <div className="container py-5">
+                <section className="section-2 py-4">
+                    <div className="container py-4">
                         <div className="row">
                             <div className="col-12 col-md-6 gap">
                                 <img src={AboutImg} alt="image" className='img-fluid w-100' />
@@ -46,8 +46,8 @@ const About = () => {
                 </section>
 
                 {/* Team */}
-                <section className="section-8 py-5 bg-light">
-                    <div className="container py-5">
+                <section className="section-8 py-4 bg-light">
+                    <div className="container py-4">
                         <div className="section-header text-center">
                             <span>team</span>
                             <h2>Our Team</h2>
