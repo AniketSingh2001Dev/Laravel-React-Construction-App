@@ -1,0 +1,312 @@
+$primary-color: #fe538d;
+$secondary-color: #FFB703;
+$text-color: black;
+$text-white: white;
+$dark-background: #222725;
+$light-background: #9e9b9b;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+ul {
+    padding-left: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.bg-light {
+    background-color: $light-background;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    padding: 15px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $secondary-color;
+        border: 1px solid $secondary-color;
+    }
+}
+
+.btn-secondary {
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    padding: 15px 20px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+    }
+}
+
+.section-header {
+    span {
+        color: $primary-color;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
+
+header {
+    nav {
+        .nav-link {
+            font-size: 1em;
+            color: $text-color;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-left: 20px;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+
+        .logo {
+            text-transform: uppercase;
+            font-size: 1em;
+            font-weight: 600;
+
+            span {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $dark-background;
+    color: $text-white;
+
+    h3 {
+        font-size: 1.5em;
+        color: $secondary-color;
+    }
+
+    ul {
+        li {
+            padding: 5px 0;
+        }
+    }
+
+    a {
+        color: $text-white;
+        font-size: 1.2em;
+        text-decoration: none;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.section-1 {
+    .hero {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../img/hero.jpg');
+        max-width: 100%;
+        min-height: 575px;
+        color: $text-white;
+
+        span {
+            color: $secondary-color;
+            font-size: 1.5em;
+            font-weight: 500;
+        }
+    }
+}
+
+.section-2 {
+    .gap {
+        margin-bottom: 20px;
+    }
+
+    img {
+        border-radius: 40px;
+    }
+
+    span {
+        color: $primary-color;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
+
+.section-3 {
+    .item {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+        &:hover {
+            .service-body {
+                transform: translateY(0%);
+
+                .service-content {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .service-image {
+            position: relative;
+            overflow: hidden;
+            
+            img {
+                width: 100%;
+                border-radius: 40px;
+                aspect-ratio: 1 / 1.2;
+                object-fit: cover;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                border-radius: 40px;
+                background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 13%, rgba(0, 0, 0, 0.5) 42.5%, rgba(0, 0, 0, 0.6) 70%, #000000 100%);
+            }
+        }
+
+        .service-body {
+            color: $text-white;
+            text-align: left;
+            position: absolute;
+            left: 30px;
+            right: 30px;
+            bottom: 30px;
+            transform: translateY(95%);
+            transition: all 0.5s ease-in-out;
+
+            .service-content {
+                transition: all 0.5s ease-in-out;
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.section-4 {
+    .card {
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+.section-5 {
+    .swiper {
+        padding:  25px 25px 100px 25px;
+
+        .swiper-pagination-bullet-active {
+            background-color: $secondary-color;
+        }
+    }
+
+    .card {
+        border-radius: 40px;
+
+        .card-body {
+            .rating {
+                color: $secondary-color;
+            }
+
+            .content {
+                p {
+                    font-size: 1em;
+                }
+            }
+            
+            .radius {
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+            .name {
+                font-size: 1.3em;
+                font-weight: 600;
+            }
+
+            .designation {
+                font-size: 1.1em;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.section-6 {
+    .card {
+        border-radius: 40px;
+
+        img {
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+
+        .card-body {
+            .card-title {
+                a {
+                    font-size: 1.3em;
+                    text-decoration: none;
+                    color: $text-color;
+                    font-weight: 600;
+    
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-7 {
+    .hero {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../img/hero.jpg');
+        max-width: 100%;
+        min-height: 400px;
+        color: $text-white;
+
+        span {
+            color: $secondary-color;
+            font-size: 1.5em;
+            font-weight: 500;
+        }
+    }
+}
