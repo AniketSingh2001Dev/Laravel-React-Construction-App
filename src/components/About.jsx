@@ -1,4 +1,5 @@
 import AboutImg from '../assets/img/about-us.jpg';
+import MemberImg from '../assets/img/team1.jpg';
 
 const About = () => {
     return (
@@ -39,6 +40,81 @@ const About = () => {
                                     Designing structures that stand the test of time involves a seamless blend of cutting-edge materials, durable design, ongoing upkeep, and eco-friendly practices.
                                     By combining lessons from the past with the power of modern technology.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Team */}
+                <section className="section-8 py-5 bg-light">
+                    <div className="container py-5">
+                        <div className="section-header text-center">
+                            <span>team</span>
+                            <h2>Our Team</h2>
+                            <p>
+                                We specialize in a wide range of construction services, including residential, commercial, and industrial projects.
+                            </p>
+                        </div>
+                        <div className="row pt-4">
+                            <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+                                <div className="card shadow border-0">
+                                    <div className="card-img-top">
+                                        <img src={MemberImg} alt="image" className="img-fluid w-100" />
+                                    </div>
+                                    <div className="card-body p-4">
+                                        <div className="card-title text-capitalize pb-0 mb-0">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div className="card-text text-capitalize">
+                                            <span>Web Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+                                <div className="card shadow border-0">
+                                    <div className="card-img-top">
+                                        <img src={MemberImg} alt="image" className="img-fluid w-100" />
+                                    </div>
+                                    <div className="card-body p-4">
+                                        <div className="card-title text-capitalize pb-0 mb-0">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div className="card-text text-capitalize">
+                                            <span>Web Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+                                <div className="card shadow border-0">
+                                    <div className="card-img-top">
+                                        <img src={MemberImg} alt="image" className="img-fluid w-100" />
+                                    </div>
+                                    <div className="card-body p-4">
+                                        <div className="card-title text-capitalize pb-0 mb-0">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div className="card-text text-capitalize">
+                                            <span>Web Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+                                <div className="card shadow border-0">
+                                    <div className="card-img-top">
+                                        <img src={MemberImg} alt="image" className="img-fluid w-100" />
+                                    </div>
+                                    <div className="card-body p-4">
+                                        <div className="card-title text-capitalize pb-0 mb-0">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div className="card-text text-capitalize">
+                                            <span>Web Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

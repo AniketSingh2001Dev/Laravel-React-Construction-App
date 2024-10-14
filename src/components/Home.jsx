@@ -431,7 +431,7 @@ const Home = () => {
                                 We specialize in a wide range of construction services, including residential, commercial, and industrial projects.
                             </p>
                         </div>
-                        <div className="row">
+                        <div className="row pt-4">
                             <div className="col-12 col-md-6 col-lg-4 col-xl-4">
                                 <div className="card shadow border-0">
                                     <div className="card-img-top">
