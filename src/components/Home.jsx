@@ -421,12 +421,12 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Blogs & News */}
+                {/* Blogs */}
                 <section className="section-6 bg-light py-5">
                     <div className="container py-5">
                         <div className="section-header text-center">
-                            <span>blogs & news</span>
-                            <h2>Articles & Blog Posts</h2>
+                            <span>our blogs</span>
+                            <h2>Blogs & Blog Posts</h2>
                             <p>
                                 We specialize in a wide range of construction services, including residential, commercial, and industrial projects.
                             </p>
